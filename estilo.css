@@ -5,11 +5,14 @@ body{
 }
 main h1{
     font-size: 60px;
-    background-color: rgb(120,30,60);
-    color: rgb(250,255,250);
+    background-color: #851944;
+    color: #F2FFFC;
     text-align: center;
     font-family: "Open sans", sans-serif;
     padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
+    border-bottom: 10px solid black;
 
 }
 h2{
@@ -19,4 +22,75 @@ h2{
 
 p{
     text-align: justify;
+    margin: 0;
+}
+
+aside{
+    background-color: #3c1d3d;
+    color: #F2FFFC;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    border-bottom: 10px solid black;
+}
+
+.container{
+    margin: 0 auto;
+    width: 940px;
+}
+
+nav h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.rede-sociais li{
+    display: inline-block;
+}5
+footer{
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+}
+
+.rede-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+
+.linkedin {
+    background-image: url("icons/linkedin.png");
+}
+
+.github {
+    background-image: url("icons/github.png");
+}
+
+aside, img{
+    float: right;
+    width: 15%;
+}
+
+aside, img{
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    width: 15%;
+    border-bottom: 10px solid black;
+}
+
+aside{
+    clear: right;
+    box-sizing: border-box;
+}
+
+main{
+    float: left;
+    width: 85%;
+}
+
+footer{
+    clear: both;
 }
