@@ -68,10 +68,6 @@ footer{
     background-image: url("icons/github.png");
 }
 
-aside, img{
-    float: right;
-    width: 15%;
-}
 
 aside, img{
     float: right;
@@ -93,4 +89,15 @@ main{
 
 footer{
     clear: both;
+}
+
+footer{
+    font-size: 10px;
+    background-color: black;
+    color: #F2FFFC;
+    text-align: center;
+    font-family: "Open sans", sans-serif;
+    padding: 20px;
+    margin: 0;
+    text-transform: uppercase;
 }
