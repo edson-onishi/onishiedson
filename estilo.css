@@ -2,33 +2,48 @@ body{
     background-color: #F2FFFC;
     font-family: "Crimson Text", serif;
     font-size: 20px;
+    line-height: 1.5;
 }
 .container{
     margin: 0 auto;
     width: 840px;
-    padding: 40px 0;
-    padding-bottom: 80px;
+    padding: 80px 0;
+    padding-bottom: 50px;
 }
 main h1{
     font-size: 60px;
     background-color: #851944;
     color: #F2FFFC;
     text-align: center;
-    font-family: "Open sans", sans-serif;
-    padding: 20px;
+    font-family: "Open Sans Condensed", sans-serif;
+    padding: 40px;
     margin: 0;
     text-transform: uppercase;
     border-bottom: 10px solid black;
 
 }
+
+main a{
+    color: #851944;
+}
 h2{
-    font-size: 30px;
-    font-family: "Open sans", sans-serif;
+    font-size: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+    clear: both;
 }
 
 p{
     text-align: justify;
     margin: 30px 0;
+
+}
+
+strong{
+    font-weight: 600;
+}
+
+em{
+    font-style: italic;
 }
 
 aside{
@@ -40,26 +55,32 @@ aside{
     border-bottom: 10px solid black;
 }
 nav h1{
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
-.container{
-    margin: 0 auto;
-    width: 940px;
+nav h2{
+    font-size: 30px;
 }
 
-nav h1{
-    font-size: 30px;
+nav .skills{
+    font-size: 20px;
     margin-bottom: 25px;
 }
+
+nav a{
+    color: inherit;
+
+}
+
 .rede-sociais li{
     display: inline-block;
-}5
-footer{
+}
+footer {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    text-align: center;
 }
 
 .rede-sociais a{
@@ -79,16 +100,19 @@ footer{
 }
 
 
-aside, img{
+aside,
+.minha-foto{
     float: right;
     box-sizing: border-box;
     border-left: 10px solid black;
-    width: 15%;
     border-bottom: 10px solid black;
 }
 
 aside{
     clear: right;
+    width: 15%;
+    position: relative;
+    top: 260px;
     box-sizing: border-box;
 }
 
@@ -99,15 +123,13 @@ main{
 
 footer{
     clear: both;
+    position: fixed ;
+    bottom: 0;
+    width: 100%;
 }
 
-footer{
-    font-size: 10px;
-    background-color: black;
-    color: #F2FFFC;
-    text-align: center;
-    font-family: "Open sans", sans-serif;
-    padding: 20px;
-    margin: 0;
-    text-transform: uppercase;
+.minha-foto{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
