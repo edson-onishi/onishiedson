@@ -1,14 +1,44 @@
 body{
     background-color: #F2FFFC;
     font-family: "Crimson Text", serif;
-    font-size: 20px;
+    font-size: 120%;
     line-height: 1.5;
+
+}
+
+h1, h2{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.titulo-principal{
+    font-size: 60px;
+    text-align: center;
+    background-color: #851944;
+    color: #fff;
+    padding: 25px;
+    border-bottom: 10px solid #000;
+}
+.subtitulo-texto{
+    font-size: 30px;
+    clear: both;
+}
+main a{
+    color: #851944;
+}
+main p{
+    text-align: justify;
+    margin: 20px 0;
 }
 .container{
-    margin: 0 auto;
-    width: 840px;
-    padding: 80px 0;
+    margin: -20px auto 0px auto;
+    width: 800px;
+    padding: 80px 0 ;
     padding-bottom: 50px;
+
 }
 main h1{
     font-size: 60px;
@@ -22,6 +52,7 @@ main h1{
     border-bottom: 10px solid black;
 
 }
+
 
 main a{
     color: #851944;
