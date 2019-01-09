@@ -150,6 +150,7 @@ aside{
 main{
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 footer{
